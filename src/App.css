@@ -63,6 +63,10 @@ a:hover {
   margin-left: 60px;
 }
 
+.navbar-menu-container {
+  display: none;
+}
+
 .cart {
   font-size: 24px;
 }
@@ -301,7 +305,6 @@ img {
 
 .contact-section-info input {
   flex: 1;
-  height: 100%;
   border: none;
   outline: none;
   font-size: 20.8px;
@@ -493,6 +496,11 @@ img {
 
   .footer-section-wrapper {
     flex-direction: column;
+  }
+
+  .footer-section-one {
+    flex-direction: column;
+    gap: 40px;
   }
 
   .footer-section-two {
